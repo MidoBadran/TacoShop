@@ -48,6 +48,7 @@ h1::before, h1::after {
 }
 
 header {
+    position: relative;
     font-family: var(--FF-HEADINGS);
     display: grid;
     grid-template-rows: auto 1fr;
@@ -80,7 +81,6 @@ a {
 
 /* Image */
 figure {
-    position: relative;
     margin-top: 6rem;
 }
 
@@ -92,7 +92,7 @@ img {
 
 .popup {
     position: absolute;
-    top: 1rem;
+    top: 7rem;
     left: 2rem;
     height: 2rem;
     padding: 0.25rem 0.7rem;
